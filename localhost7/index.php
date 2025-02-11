@@ -17,6 +17,7 @@ foreach($img as $images)
 ?>
 <?php
 echo "<table border='1'>";
+for ($i=2;$i<=10;$i++)
 {
     echo "<tr>";
     for($j=2;$j<=10;$j++)
