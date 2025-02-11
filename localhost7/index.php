@@ -19,11 +19,13 @@ foreach($img as $images)
 echo "<table border='1'>";
 for ($i=2;$i<=10;$i++)
 {
-    echo "<tr>";
+    echo "<tr>"; 
+    echo "<td>";
     for($j=2;$j<=10;$j++)
     {
-        echo "<td>" . $i*$j . "</td>";
+        echo "<td>" . $i .  "*" .  $j,  "=" .  $i*$j . "</td>";
     }
+    echo "</td>";
     echo "</tr>";
 }
 echo "</table>";
